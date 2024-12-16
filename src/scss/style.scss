@@ -1,0 +1,26 @@
+@import 'libs/null';
+@import 'libs/fonts';
+// @import "libs/animate";
+
+body {
+   height: 100%;
+   font-family: Raleway;
+   color: rgb(255, 255, 255);
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   background-color: rgb(27, 35, 48);
+   padding: 73px 0 53px;
+}
+.container {
+   max-width: 1310px; //? +30px, если контейнеру устанавливаем padding: 0 15px;
+   margin: auto;
+   padding: 0 15px;
+}
+// @import "base/animations";
+// @import "base/variables";
+@import 'blocks/header';
+@import 'blocks/front';
+// @import "blocks/footer";
+// @import "base/media";
